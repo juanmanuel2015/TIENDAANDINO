@@ -36,5 +36,8 @@ SELECT * FROM stg.Ventas WHERE [Nombre Vendedor] IN ('Kaley', 'Paula', 'Glen')
 SELECT Producto,Cantidad,Venta,Costo
 FROM stg.Ventas;
 
+SELECT Marca,Producto,Nombre Vendedor
+FROM stg.Ventas;
+
 
 
